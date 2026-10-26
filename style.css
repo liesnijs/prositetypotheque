@@ -1,0 +1,233 @@
+/* CSS reset, dit niet aanpassen! */
+
+*,
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+body {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 24.7vw 24.7vw 24.7vw 24.7vw;
+    grid-template-rows: 12vh 80vh 32vh 32vh;
+}
+
+
+#logo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: 8px 8px 0px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/logo7.png");
+}
+
+
+#wit {
+    background-image: url("images/login2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    margin: 8px 8px 0px 8px;
+}
+
+#chairmantitel {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    margin: 8px 8px 8px 8px;
+    background-image: url("images/Chairmantitel.png");
+
+}
+
+
+
+#aa {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 1 / 2;
+    grid-row: 3/ 5;
+    margin: 2px 2px 2px 8px;
+    border-radius: 25px;
+    background-image: url("images/aa1.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+#aa p {
+    position: relative;
+    left: 16px;
+    top: 10px;
+    font-size: 14px;
+}
+
+
+
+#kleurwaaiers {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 2 / 3;
+    grid-row: 3/ 4;
+    margin: 2px;
+    border-radius: 25px;
+    background-image: url("images/kleurwaaiers3.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+#kleurwaaiers p1 {
+    color: white;
+    position: relative;
+    left: 16px;
+    top: 10px;
+    font-size: 14px;
+}
+
+
+
+#familie {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    margin: 2px;
+    border-radius: 25px;
+    background-image: url("images/familie1.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#familie p2 {
+    position: relative;
+    left: 16px;
+    top: 10px;
+    font-size: 14px;
+}
+
+
+
+
+#aaa {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    margin: 2px;
+    border-radius: 25px;
+    background-image: url("images/aaa2.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#aaa p3 {
+    position: relative;
+    left: 16px;
+    top: 10px;
+    font-size: 14px;
+}
+
+#fonts {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    margin: 2px;
+    border-radius: 25px;
+    background-image: url("images/fonts1.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#fonts p4 {
+    position: relative;
+    left: 16px;
+    top: 10px;
+    font-size: 14px;
+}
+
+#tt {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 4 / 5;
+    grid-row: 3/ 4;
+    margin: 2px 8px 2px 2px;
+    border-radius: 25px;
+    background-image: url("images/tt1.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#tt p5 {
+    position: relative;
+    left: 16px;
+    top: 10px;
+    font-size: 14px;
+}
+
+#sizes {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 4 / 5;
+    grid-row: 4/ 5;
+    margin: 2px 8px 2px 2px;
+    border-radius: 25px;
+    background-image: url("images/sizes.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#sizes p6 {
+    position: relative;
+    left: 16px;
+    top: 10px;
+    font-size: 14px;
+}
+
+.aa h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    left: 16px;
+    top: 8px;
+    font-size: 14px;
+}
